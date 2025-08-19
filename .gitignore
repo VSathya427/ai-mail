@@ -1,3 +1,4 @@
+
 # Compiled class file
 *.class
 
@@ -22,3 +23,33 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# IntelliJ IDEA project files
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/libraries/
+.idea/dataSources/
+.idea/sqlDataSources.xml
+.idea/dataSources.local.xml
+.idea/dictionaries/
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# Build artifacts
+out/
+target/
+build/
+*.iml.old
+*.ipr.old
+*.iws.old
+
+# Local configuration and logs
+*.log
+*.swp
+.DS_Store
+
+# Sensitive files
+*.properties.local
+*.env
+
+
